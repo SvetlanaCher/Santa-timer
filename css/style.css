@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(206, 7, 7, 0.952), #00ecb9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TIMER */
+
+.container {
+    margin: 0;
+    margin-top: 100px;
+    position: relative;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown-title {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px #2f3534;
+}
+
+.coutdown {
+    display: flex;
+    flex-direction: row;
+    background: #00bf96;
+    border: 3px solid #00816a;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    box-shadow: 0px 10px 40px #02745f;
+}
+
+.coutdown-number {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+.coutdown-time {
+    color: #00816a;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #02745f;
+}
+
+.coutdown-text {
+    color: #00816a;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.hat {
+    height: 80px;
+    width: 153px;
+    position: relative;
+    z-index: 1;
+    right: -790px;
+    top: -147px;
+    transform: rotate(34deg);
+}
+
+/* WISH CARD */
+
+.wish-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wish-title {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px #2f3534;
+}
+
+.wish-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.santa{
+    height:330px;
+    float: left;
+}
+
+
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#form_message{
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin:0;
+	padding: 20px 10px 10px 20px;
+	width: 450px;
+    height:330px;
+   
+    justify-content: center;
+    color: #851f1f;
+    font-weight: 600;
+}
+
+#form_message p {
+    text-align: center;
+}
+
+#form_message input,textarea{
+	border-radius: 5px;
+    width: 250px;
+    background-color: lightgrey;
+}
+
+#form_message input:last-child{
+    width: 170px;
+    background-color: #00816a;
+    height: 50px;
+    color: #851f1f;
+    font-weight: 600;
+}
+
+textarea {
+    width: 250px;
+    height: 150px;
+    resize: none;
+}

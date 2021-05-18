@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Timer simple</title>
+</head>
+<body>
+    <div id="snow">
+        <!-- TIMER -->
+        <div class="container">
+            <h1 class="countdown-title">Countdown Clock till New Year</h1>
+            <div id="coutdown" class="coutdown">
+                <div class="coutdown-number">
+                    <span class="days coutdown-time"></span>
+                    <span class="coutdown-text">Days</span>
+                </div>
+                <div class="coutdown-number">
+                    <span class="hours coutdown-time"></span>
+                    <span class="coutdown-text">Hours</span>
+                </div>
+                <div class="coutdown-number">
+                    <span class="minutes coutdown-time"></span>
+                    <span class="coutdown-text">Minutes</span>
+                </div>
+                <div class="coutdown-number">
+                    <span class="seconds coutdown-time"></span>
+                    <span class="coutdown-text">Seconds</span>
+                </div>
+            </div>
+          <!--  <img src="./images/hat.png" alt="hat" class="hat">  -->
+        </div>
+        <!-- WISH CARD -->
+        <div class="wish-card">
+            <h2 class="wish-title">Your wish card</h2> 
+
+            <div class="wish-container">
+                
+                <img src="./images/santa.png" alt="santa" class="santa">
+
+                <form name="form" action="mail.php" method="post" id="form_message">
+
+                    <p> <div class="titles">Your name*</div> <input class="input" name="name" type="text"/> </p>
+                    
+                    <p> <div class="titles">E-mail*</div> <input class="input" name="email" type="text"/> </p>
+                    
+                    <p> <div class="titles">Your wish*</div><textarea name="message" cols="22" rows="5"></textarea></p>
+
+                    <p><input id="submit" value="Send" type="submit" /></p>
+                </form>
+
+            </div>
+
+        </div>
+
+   <script src="./js/timer_code.js"></script>
+   <script src="./js/snowfall_code.js"></script>
+
+</body>
+</html>
